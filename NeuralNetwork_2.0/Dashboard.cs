@@ -156,8 +156,6 @@ namespace NeuralNetwork_2._0
             if (!hiddenp) output = false;
             if (hiddenV < 0) output = false;
 
-            if (JAttributes.Inputs.Count < 1) output = false;
-
             return output;
         }
         #endregion
